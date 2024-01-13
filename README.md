@@ -1,4 +1,4 @@
-# example_website
+# example_company_website
 
 I used html and css with flexbox to create a formatted example company website. I used generic images and text for filler to emphasize the overall formatting. For a real company website, the text and images would be matched to fit the company details.
 
