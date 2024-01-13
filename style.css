@@ -1,0 +1,48 @@
+* {
+  outline: 1px red solid;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.section-one {
+  background-color: rgb(0, 0, 53);
+  color: aliceblue;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo, .links {
+  display: flex;
+  padding: 10px;
+  margin: 30px;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.links {
+  font-size: 18px;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
