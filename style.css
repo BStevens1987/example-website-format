@@ -8,12 +8,15 @@ body {
   margin: 0;
   padding: 0;
 }
-.section-one {
+
+.section-one, .footer {
   background-color: rgb(0, 0, 53);
   color: aliceblue;
   display: flex;
-  flex-direction: column;
+}
 
+.section-one {
+  flex-direction: column;
 }
 
 .header {
@@ -61,11 +64,11 @@ body {
 }
 
 .hero-second {
-  font-size: 24px;
+  font-size: 18px;
   color: #F9FAF8;
 }
 
-.sign {
+.sign, .sign-two {
   background-color: #3882F6;
   color: white;
   font-size: 20px;
@@ -76,11 +79,11 @@ body {
   border: 0px;
   cursor: pointer;
 }
+
 .image {
   height: 270px;
   width: 423.812px;
 }
-
 
 .section-two{
   background-color: white;
@@ -91,8 +94,7 @@ body {
   color: black;
   font-size: 26px;
   font-weight: bold;
-  padding: 10px;
-  margin: 30px;
+  margin: 40px;
 }
 
 .container {
@@ -116,6 +118,7 @@ body {
 
 .text {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
 
 .section-three{
@@ -147,11 +150,50 @@ body {
 .credit {
   font-size: 30px;
   font-weight: bold;
+  margin: 0 0 40px 0;
+}
+
+.section-four {
+  background-color: white;
+}
+
+.sub-four {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 400px;
+}
+
+.left-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.action{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-two {
+  border-radius: 12px;
+  border: 2px white solid;
 }
 
 ul {
   list-style-type: none;
 }
+
+.footer {
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
+
 a {
   text-decoration: none;
   color: aliceblue;
