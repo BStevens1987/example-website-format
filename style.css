@@ -26,7 +26,7 @@ body {
 .logo, .links, .left, .right {
   display: flex;
   padding: 10px;
-  margin: 30px;
+  margin: 30px 150px;
   gap: 20px;
   flex-basis: auto;
 }
@@ -76,11 +76,43 @@ body {
   border: 0px;
   cursor: pointer;
 }
-
-image {
-  max-width:100%
+.image {
+  height: 270px;
+  width: 423.812px;
 }
 
+
+.section-two{
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.border {
+  outline: 5px #3882F6 solid;
+  margin: 0;
+  height: 150px;
+  width: 150px;
+}
+
+.item {
+  text-align: center;
+  max-width: 150px;
+}
 
 ul {
   list-style-type: none;
